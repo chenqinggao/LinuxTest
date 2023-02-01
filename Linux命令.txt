@@ -1,0 +1,10 @@
+1，netstat -nltp | 30000 通过进程id30000查看端口号
+2，ps -elf | grep access 通过关键字access来查看进程信息
+3，vi操作 跳到文本的最后一行：“shift+g”
+4，vi操作  跳到第一行的第一个字符：先按两次“g”
+5，vi操作  跳转到当前行的第一个字符：在当前行按“0”
+6.   vi操作 跳到当前行的最后一个字符 ：“shift+4”。
+7.   vi操作 :%s/en/mn/（等同于 :g/en/s//mn/） 替换每一行的第一个 en 为 mn
+                :%s/en/mn/g（等同于 :g/en/s//mn/g） 替换每一行中所有 en 为 mn
+	: set nu 显示行号；
+./make.sh > log.txt 2>&1

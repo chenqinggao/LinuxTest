@@ -1,0 +1,22 @@
+1，use 数据库//切换mysql数据库
+2，show databases//列出mysql数据库列表
+3，show tables //
+4，show columns from 数据库表
+5, show index from 数据库表
+5, mysql -u 用户名 -p 密码
+6，create database 数据库名
+7，drop database 数据库名
+8，desc 表名
+9，drop talbe 表名
+10，insert into 表名 （field1,field2,field3）values (value1,value2,value3) | | insert into 表名(value1,value2,value3)
+11,select * from 表名 || select field1, field2 from 表名
+12，select * from 表名 where binary field1=="chen"
+13 ,update 表名 set field="kent" where field=="chen"
+14,delete from 表名 where field=="chen"
+15,select * from 表名 where field like 'kent_%'
+16,select * from 表名 where order by asc(desc) 
+17,select sum(field) as sum from 表名 group by filed with rollup
+18, select * from 表名 where field is null(is not null)
+19, select * from 表名 where name regexp '^[aeiou]|ok$'
+20 alter table 表名 field drop i(alter table 表名 add i int) (alter table 表名 modify i char(10))(alter table 表名 change i j char(20))
+21 
