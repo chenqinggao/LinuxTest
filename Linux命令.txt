@@ -7,4 +7,4 @@
 7.   vi操作 :%s/en/mn/（等同于 :g/en/s//mn/） 替换每一行的第一个 en 为 mn
                 :%s/en/mn/g（等同于 :g/en/s//mn/g） 替换每一行中所有 en 为 mn
 	: set nu 显示行号；
-./make.sh > log.txt 2>&1
+./make.sh > log.txt 2>&1 11
